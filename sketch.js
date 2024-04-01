@@ -13,7 +13,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1280, 720);
+  createCanvas(windowWidth, windowHeight);
   // 不再需要在这里设置背景色，因为我们将使用背景图片
 }
 
